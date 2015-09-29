@@ -1,0 +1,42 @@
+body {
+	background-color: #e0ac69;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	border: 5px solid black;
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-color: #e5c3c6;
+}
+
+p {
+	font-size: 20px;
+}
+
+.plus {
+	font-size: 30px;
+	margin: 0;
+}
+
+input {
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+	text-align: right;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+
+#calculateBtn {
+	margin-top: 20px;
+	background-color: #f96161;
+	font-size: 25px;
+	text-align: center;
+}
+
+#answer {
+	font-size: 50px;
+}
