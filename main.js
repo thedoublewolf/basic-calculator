@@ -5,13 +5,11 @@ var calcBtn = document.querySelector('#calculateBtn');
 var answerElem = document.querySelector('#answer');
 
 //Variable Declarations
-var numOne, numTwo, answerText;
+var answerText;
 
 //Function to Calculate and Generate Answer
-var answerMe = function () {
-	numOne = inputOne.value;
-	numTwo = inputTwo.value;
-	answerText = Number(numOne) + Number(numTwo) + ' donuts!';
+function answerMe() {
+	answerText = Number(inputOne.value) + Number(inputTwo.value) + ' donuts!';
 	answerElem.textContent = answerText;
 }
 
